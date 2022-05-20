@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 import re
 import sys
-from syslog import openlog
 import threading
 import time
 from datetime import datetime
-from pytz import timezone
 from os import listdir
 from os.path import isfile, join
 from pathlib import Path
@@ -176,7 +174,7 @@ class RET_Error_Logger():
             log_time = log_dict['time']
         else:
             # convert epoch time to UTC
-            utc_time = datetime.utcfromtimestamp(float(log_dict['epoch time'])).strftime('%H:%M:%S')
+            log_time = datetime.utcfromtimestamp(float(log_dict['epoch time'])).strftime('%H:%M:%S')
         message = log_dict['message'],
 
         json = [{
