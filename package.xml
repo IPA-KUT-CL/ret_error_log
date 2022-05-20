@@ -4,6 +4,7 @@
   <version>0.1.0</version>
   <description>The package is to log every error messages for ret project</description>
   <maintainer email="tejas.kumar.shastha@ipa.fraunhofer.de">Tejas Kumar Shastha</maintainer>
+  <author email="changxuan.li@ipa.fraunhofer.de">Changxuan Li</author>
   <license>TODO</license>
 
   <buildtool_depend>catkin</buildtool_depend>
