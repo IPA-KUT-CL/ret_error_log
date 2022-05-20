@@ -12,7 +12,7 @@ This project is to record and examine all logs generated while running ros appli
     ```
     sudo service influx start
     ```
-- Put the keywords to be recorded in [ret_error_logger.py](./scripts/ret_error_logger.py#L18)
+- Put the keywords to be recorded in [ret_error_logger.py](./scripts/ret_error_logger.py#L16)
 - Launch a ROS program, for example
     ```
     roslaunch ret_error_logger segfault_launch_py.launch
