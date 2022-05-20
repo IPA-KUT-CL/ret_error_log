@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+'''
+use ros to wrap a function which will cause segmentation fault
+cf py_segfault.py
+'''
+import rospy
+from std_msgs.msg import String
+import sys
+from ret_error_logger.talker import talker
+
+sys.setrecursionlimit(10**6)
+
+if __name__ == '__main__':
+    talker()

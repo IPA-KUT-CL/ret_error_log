@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ret_error_logger</name>
+  <version>0.1.0</version>
+  <description>The package is to log every error messages for ret project</description>
+  <maintainer email="tejas.kumar.shastha@ipa.fraunhofer.de">Tejas Kumar Shastha</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rosconsole</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>roscpp</depend>
+
+  <export>
+  </export>
+</package>

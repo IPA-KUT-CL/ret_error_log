@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="ret_error_logger" type="ros_segfault" name="segfault_node" output="screen"/>
+</launch>
